@@ -5,15 +5,18 @@ int a = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 2 ");
 int b = Convert.ToInt32(Console.ReadLine());
 
-if (a>b) 
+if (a==b) 
 {
-    Console.Write(a);
-    Console.Write(">" );
-    Console.Write(b);
+     Console.Write($"{a} = {b}");
 }
 else
 {
-   Console.Write(a);
-    Console.Write("<" );
-    Console.Write(b);
+if (a>b) 
+{
+    Console.Write($"{a} > {b}");
+}
+else
+{
+   Console.Write($"{a} < {b}");
 } 
+}
