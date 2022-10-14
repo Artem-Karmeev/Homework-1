@@ -6,17 +6,11 @@ Console.WriteLine("Введите число 2 ");
 int b = Convert.ToInt32(Console.ReadLine());
 
 if (a==b) 
-{
-     Console.Write($"{a} = {b}");
-}
+Console.Write($"{a} = {b}");
+
 else
-{
-if (a>b) 
-{
+
+    if (a>b) 
     Console.Write($"{a} > {b}");
-}
-else
-{
-   Console.Write($"{a} < {b}");
-} 
-}
+    else
+    Console.Write($"{a} < {b}");
