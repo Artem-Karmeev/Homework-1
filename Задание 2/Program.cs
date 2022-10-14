@@ -6,24 +6,10 @@ int b = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите число 3 ");
 int c = Convert.ToInt32(Console.ReadLine());
 
-int max = (a);
+int max = a;
 
-if (max<b)
-{
-    max = (b);
-}
-else
-{
-   max = (a);
-}
+if (max<b) max = b;
+if (max<c) max = c;
 
-if (max<c)
-{
-    max = (c);
-}
-else
-{
-   max = (b);
-}
 Console.Write("max = ");
 Console.WriteLine(max);
