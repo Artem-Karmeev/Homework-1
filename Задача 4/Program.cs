@@ -8,7 +8,6 @@ int a = 0;
 
 if (n % 2 == 0) 
 {
-    n = n - 2;
 while (a < n)
 {
     a = a + 2;
